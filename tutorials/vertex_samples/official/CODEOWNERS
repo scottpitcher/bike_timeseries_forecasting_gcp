@@ -1,0 +1,57 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @global-owner1 and @global-owner2 will be requested for
+# review when someone opens a pull request.
+* @GoogleCloudPlatform/vertex-ai-samples-contributors  @GoogleCloudPlatform/caiis-tw
+
+# matching_engine folder
+/matching_engine @shenzhimo2 @ivanmkc
+
+/tabnet/tabnet_vertex_tutorial.ipynb @longtle
+
+/migration @andrewferlitsch
+/explainabl_ai
+/pipelines @andrewferlitsch
+/ml_metadata @andrewferlitsch
+/model_monitoring @andrewferlitsch
+/tensorboard @zbl94
+/vertex_ai_sdk @jaycee-li
+/experiments @lakeyk
+
+/bigquery_ml/bqml-online-prediction.ipynb @polong-lin
+/model_monitoring/model_monitoring.ipynb @andrewferlitsch
+/ml_metadata/sdk-metric-parameter-tracking-for-custom-jobs.ipynb @jialuzh
+/ml_metadata/sdk-metric-parameter-tracking-for-locally-trained-models.ipynb @jialuzh
+/ml_metadata/vertex-pipelines-ml-metadata.ipynb @sararob
+/vizier/gapic-vizier-multi-objective-optimization.ipynb @halio-g
+/training/xgboost_data_parallel_training_on_cpu_using_dask.ipynb @halio-g
+/feature_store/gapic-feature-store.ipynb @diemtvu
+/feature_store/vertex_ai_feature_store_feature_view_service_agents.ipynb @ethan-gordon
+/feature_store/vertex_ai_feature_store_iam_policy.ipynb @ethan-gordon
+/managed_notebooks @GoogleCloudPlatform/notebooks-team
+/pipelines/google_cloud_pipeline_components_bqml_text.ipynb @inardini
+/pipelines/google_cloud_pipelines_dataproc_tabular @inardini
+/automl/automl_tabular_on_vertex_pipelines.ipynb @helinwang
+/automl/automl_forecasting_on_vertex_pipelines.ipynb @geraint0923
+/custom/custom_training_tensorboard_profiler.ipynb @gericdong
+/custom/get_started_with_vertex_endpoint_and_shared_vm.ipynb @andrewferlitsch
+/generative_ai/text_embedding_new_api.ipynb @xqr-g
+/generative_ai/anthropic_claude_3_intro.ipynb @huyngo-google
+/workbench/spark/spark_sample_notebook.ipynb @bradmiro
+/workbench/spark/spark_ml.ipynb @bradmiro
+/model_registry/bqml_vertexai_model_registry.ipynb @soheilazangeneh
+/model_evaluation/automl_tabular_classification_model_evaluation.ipynb @soheilazangeneh
+/model_evaluation/automl_tabular_regression_model_evaluation.ipynb @soheilazangeneh
+/tabular_workflows/bqml_arima_plus.ipynb @TheMichaelHu
+/tabular_workflows/prophet_on_vertex_pipelines.ipynb @TheMichaelHu
+/model_evaluation/custom_tabular_classification_model_evaluation.ipynb @soheilazangeneh
+/sdk/SDK_FBProphet_Forecasting_Online.ipynb @brianchunkang
+/pipelines/Train_tabular_models_with_many_frameworks_and_import_to_Vertex_AI_using_Pipelines @Ark-kun
+/experiments/get_started_with_vertex_experiments_autologging.ipynb @inardini
+/experiments/delete_outdated_tensorboard_experiments.ipynb @inardini
+/experiments/get_started_with_custom_training_autologging_local_script.ipynb @inardini
+/model_evaluation/model_based_llm_evaluation/autosxs_llm_evaluation_for_summarization_task.ipynb @sipingh
+/model_evaluation/model_based_llm_evaluation/autosxs_check_alignment_against_human_preference_data.ipynb @sipingh
+/ray_on_vertex_ai/get_started_with_pytorch_rov.ipynb @inardini
+/training/tpuv5e_gemma_peft_finetuning_and_serving.ipynb @brianchunkang
+/training/tpuv5e_llama2_pytorch_finetuning_and_serving.ipynb @brianchunkang @chiefkarlin

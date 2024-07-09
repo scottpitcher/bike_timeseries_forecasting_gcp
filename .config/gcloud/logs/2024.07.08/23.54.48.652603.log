@@ -1,0 +1,23 @@
+2024-07-08 23:54:48,653 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2024-07-08 23:54:48,655 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'configure_docker']
+2024-07-08 23:54:48,656 DEBUG    root            Running [gcloud.auth.configure-docker] with arguments: [--quiet: "True"]
+2024-07-08 23:54:48,685 WARNING  root            Your config file at [/home/jupyter/.docker/config.json] contains these credential helper entries:
+
+{
+  "credHelpers": {
+    "gcr.io": "gcloud",
+    "us.gcr.io": "gcloud",
+    "eu.gcr.io": "gcloud",
+    "asia.gcr.io": "gcloud",
+    "staging-k8s.gcr.io": "gcloud",
+    "marketplace.gcr.io": "gcloud"
+  }
+}
+2024-07-08 23:54:48,685 INFO     ___FILE_ONLY___ Adding credentials for all GCR repositories.
+
+2024-07-08 23:54:48,685 WARNING  root            A long list of credential helpers may cause delays running 'docker build'. We recommend passing the registry name to configure only the registry you are using.
+2024-07-08 23:54:48,685 INFO     ___FILE_ONLY___ gcloud credential helpers already registered correctly.
+
+2024-07-08 23:54:48,686 DEBUG    root            Chosen display Format:default
+2024-07-08 23:54:48,686 INFO     root            Display format: "default"
+2024-07-08 23:54:48,686 DEBUG    root            SDK update checks are disabled.
